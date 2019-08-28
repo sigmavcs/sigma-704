@@ -23,7 +23,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "sigma-704/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed!\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed.\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
