@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "93f32909-a290-4288-a007-a9f9e327463f": {
+        "id": "93f32909-a290-4288-a007-a9f9e327463f",
+        "parent": null,
+        "name": "sigma-704",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "dfc11861-fe17-4b9a-b336-848cae8d0922"
+        ],
+        "isRemovable": false,
+        "filePath": "sigma-704"
+      },
+      "dfc11861-fe17-4b9a-b336-848cae8d0922": {
+        "id": "dfc11861-fe17-4b9a-b336-848cae8d0922",
+        "parent": "93f32909-a290-4288-a007-a9f9e327463f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigma-704/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "93f32909-a290-4288-a007-a9f9e327463f",
+    "openFiles": [
+      "dfc11861-fe17-4b9a-b336-848cae8d0922"
+    ],
+    "currentFileId": "dfc11861-fe17-4b9a-b336-848cae8d0922",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sigma-704",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sigma-704",
+      "url": "https://github.com/sigmavcs/sigma-704"
+    }
+  }
+}
