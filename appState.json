@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "dfc11861-fe17-4b9a-b336-848cae8d0922"
+          "dfc11861-fe17-4b9a-b336-848cae8d0922",
+          "c699e9f2-37eb-40c8-8ba6-c3dd7596dc4c"
         ],
         "isRemovable": false,
         "filePath": "sigma-704"
@@ -31,14 +32,38 @@
           "layers": []
         },
         "triggers": []
+      },
+      "c699e9f2-37eb-40c8-8ba6-c3dd7596dc4c": {
+        "id": "c699e9f2-37eb-40c8-8ba6-c3dd7596dc4c",
+        "parent": "93f32909-a290-4288-a007-a9f9e327463f",
+        "name": "d",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7f43fa1c-8efb-4f8b-a894-a1ee77a0de9b"
+        ],
+        "isRemovable": true,
+        "filePath": "sigma-704/d"
+      },
+      "7f43fa1c-8efb-4f8b-a894-a1ee77a0de9b": {
+        "id": "7f43fa1c-8efb-4f8b-a894-a1ee77a0de9b",
+        "parent": "c699e9f2-37eb-40c8-8ba6-c3dd7596dc4c",
+        "name": "f.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sigma-704/d/f.js",
+        "code": ""
       }
     },
     "deletedFiles": [],
     "rootNode": "93f32909-a290-4288-a007-a9f9e327463f",
     "openFiles": [
-      "dfc11861-fe17-4b9a-b336-848cae8d0922"
+      "dfc11861-fe17-4b9a-b336-848cae8d0922",
+      "7f43fa1c-8efb-4f8b-a894-a1ee77a0de9b"
     ],
-    "currentFileId": "dfc11861-fe17-4b9a-b336-848cae8d0922",
+    "currentFileId": "7f43fa1c-8efb-4f8b-a894-a1ee77a0de9b",
     "resources": {},
     "customTemplate": {
       "dialect": null,
